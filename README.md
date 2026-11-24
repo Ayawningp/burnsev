@@ -16,7 +16,7 @@ Study area: the January 2025 Palisades fire, Los Angeles (UTM zone 11N, EPSG:326
 
 ## Status
 
-Early development. Phase 0 (CRS utilities) is in place; the rest is planned.
+Early development. Phases 0 (CRS utilities) and 1 (STAC scene selection) are done; phase 2 (lazy loading) is in progress.
 
 | Phase | Issue |
 | --- | --- |
