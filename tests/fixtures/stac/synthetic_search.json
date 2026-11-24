@@ -1,0 +1,1183 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SKT_20241220_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -119.2,
+    33.5,
+    -118.58,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -119.2,
+       33.5
+      ],
+      [
+       -118.58,
+       33.5
+      ],
+      [
+       -118.58,
+       34.6
+      ],
+      [
+       -119.2,
+       34.6
+      ],
+      [
+       -119.2,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2024-12-20T18:40:12.024000Z",
+    "eo:cloud_cover": 3.0,
+    "grid:code": "MGRS-11SKT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "valid pair, worst tile 4"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20241220/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20241220/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20241220/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  },
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SLT_20241220_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -118.62,
+    33.5,
+    -117.9,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -118.62,
+       33.5
+      ],
+      [
+       -117.9,
+       33.5
+      ],
+      [
+       -117.9,
+       34.6
+      ],
+      [
+       -118.62,
+       34.6
+      ],
+      [
+       -118.62,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2024-12-20T18:40:12.024000Z",
+    "eo:cloud_cover": 4.0,
+    "grid:code": "MGRS-11SLT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "valid pair, worst tile 4"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20241220/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20241220/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20241220/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  },
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SKT_20241228_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -119.2,
+    33.5,
+    -118.58,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -119.2,
+       33.5
+      ],
+      [
+       -118.58,
+       33.5
+      ],
+      [
+       -118.58,
+       34.6
+      ],
+      [
+       -119.2,
+       34.6
+      ],
+      [
+       -119.2,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2024-12-28T18:40:12.024000Z",
+    "eo:cloud_cover": 1.0,
+    "grid:code": "MGRS-11SKT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "EXPECTED PRE: valid pair, worst tile 2"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20241228/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20241228/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20241228/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  },
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SLT_20241228_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -118.62,
+    33.5,
+    -117.9,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -118.62,
+       33.5
+      ],
+      [
+       -117.9,
+       33.5
+      ],
+      [
+       -117.9,
+       34.6
+      ],
+      [
+       -118.62,
+       34.6
+      ],
+      [
+       -118.62,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2024-12-28T18:40:12.024000Z",
+    "eo:cloud_cover": 2.0,
+    "grid:code": "MGRS-11SLT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "EXPECTED PRE: valid pair, worst tile 2"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20241228/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20241228/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20241228/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  },
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SKT_20250102_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -119.2,
+    33.5,
+    -118.58,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -119.2,
+       33.5
+      ],
+      [
+       -118.58,
+       33.5
+      ],
+      [
+       -118.58,
+       34.6
+      ],
+      [
+       -119.2,
+       34.6
+      ],
+      [
+       -119.2,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2025-01-02T18:40:12.024000Z",
+    "eo:cloud_cover": 0.5,
+    "grid:code": "MGRS-11SKT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "trap: clearest tile, but its partner is cloudy"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250102/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250102/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250102/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  },
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SLT_20250102_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -118.62,
+    33.5,
+    -117.9,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -118.62,
+       33.5
+      ],
+      [
+       -117.9,
+       33.5
+      ],
+      [
+       -117.9,
+       34.6
+      ],
+      [
+       -118.62,
+       34.6
+      ],
+      [
+       -118.62,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2025-01-02T18:40:12.024000Z",
+    "eo:cloud_cover": 60.0,
+    "grid:code": "MGRS-11SLT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "trap: fails cloud filter, so 01-02 can't cover AOI"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250102/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250102/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250102/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  },
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SMT_20250105_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -118.2,
+    33.5,
+    -117.5,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -118.2,
+       33.5
+      ],
+      [
+       -117.5,
+       33.5
+      ],
+      [
+       -117.5,
+       34.6
+      ],
+      [
+       -118.2,
+       34.6
+      ],
+      [
+       -118.2,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2025-01-05T18:40:12.024000Z",
+    "eo:cloud_cover": 0.0,
+    "grid:code": "MGRS-11SMT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "trap: perfectly clear but misses the AOI"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SMT/20250105/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SMT/20250105/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SMT/20250105/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  },
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SKT_20250107_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -119.2,
+    33.5,
+    -118.58,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -119.2,
+       33.5
+      ],
+      [
+       -118.58,
+       33.5
+      ],
+      [
+       -118.58,
+       34.6
+      ],
+      [
+       -119.2,
+       34.6
+      ],
+      [
+       -119.2,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2025-01-07T18:40:12.024000Z",
+    "eo:cloud_cover": 0.0,
+    "grid:code": "MGRS-11SKT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "trap: on the fire start date, not strictly before"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250107/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250107/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250107/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  },
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SLT_20250107_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -118.62,
+    33.5,
+    -117.9,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -118.62,
+       33.5
+      ],
+      [
+       -117.9,
+       33.5
+      ],
+      [
+       -117.9,
+       34.6
+      ],
+      [
+       -118.62,
+       34.6
+      ],
+      [
+       -118.62,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2025-01-07T18:40:12.024000Z",
+    "eo:cloud_cover": 0.0,
+    "grid:code": "MGRS-11SLT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "trap: on the fire start date, not strictly before"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250107/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250107/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250107/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  },
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SKT_20250120_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -119.2,
+    33.5,
+    -118.58,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -119.2,
+       33.5
+      ],
+      [
+       -118.58,
+       33.5
+      ],
+      [
+       -118.58,
+       34.6
+      ],
+      [
+       -119.2,
+       34.6
+      ],
+      [
+       -119.2,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2025-01-20T18:40:12.024000Z",
+    "eo:cloud_cover": 0.0,
+    "grid:code": "MGRS-11SKT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "trap: after start, before containment"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250120/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250120/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250120/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  },
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SLT_20250120_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -118.62,
+    33.5,
+    -117.9,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -118.62,
+       33.5
+      ],
+      [
+       -117.9,
+       33.5
+      ],
+      [
+       -117.9,
+       34.6
+      ],
+      [
+       -118.62,
+       34.6
+      ],
+      [
+       -118.62,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2025-01-20T18:40:12.024000Z",
+    "eo:cloud_cover": 0.0,
+    "grid:code": "MGRS-11SLT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "trap: after start, before containment"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250120/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250120/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250120/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  },
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SKT_20250203_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -119.2,
+    33.5,
+    -118.58,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -119.2,
+       33.5
+      ],
+      [
+       -118.58,
+       33.5
+      ],
+      [
+       -118.58,
+       34.6
+      ],
+      [
+       -119.2,
+       34.6
+      ],
+      [
+       -119.2,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2025-02-03T18:40:12.024000Z",
+    "eo:cloud_cover": 10.0,
+    "grid:code": "MGRS-11SKT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "valid pair, worst tile 12"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250203/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250203/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250203/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  },
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SLT_20250203_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -118.62,
+    33.5,
+    -117.9,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -118.62,
+       33.5
+      ],
+      [
+       -117.9,
+       33.5
+      ],
+      [
+       -117.9,
+       34.6
+      ],
+      [
+       -118.62,
+       34.6
+      ],
+      [
+       -118.62,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2025-02-03T18:40:12.024000Z",
+    "eo:cloud_cover": 12.0,
+    "grid:code": "MGRS-11SLT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "valid pair, worst tile 12"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250203/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250203/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250203/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  },
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SKT_20250206_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -119.2,
+    33.5,
+    -118.58,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -119.2,
+       33.5
+      ],
+      [
+       -118.58,
+       33.5
+      ],
+      [
+       -118.58,
+       34.6
+      ],
+      [
+       -119.2,
+       34.6
+      ],
+      [
+       -119.2,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2025-02-06T18:40:12.024000Z",
+    "eo:cloud_cover": 5.0,
+    "grid:code": "MGRS-11SKT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "EXPECTED POST: worst tile 5, ties 02-11, closer"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250206/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250206/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250206/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  },
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SLT_20250206_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -118.62,
+    33.5,
+    -117.9,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -118.62,
+       33.5
+      ],
+      [
+       -117.9,
+       33.5
+      ],
+      [
+       -117.9,
+       34.6
+      ],
+      [
+       -118.62,
+       34.6
+      ],
+      [
+       -118.62,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2025-02-06T18:40:12.024000Z",
+    "eo:cloud_cover": 5.0,
+    "grid:code": "MGRS-11SLT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "EXPECTED POST: worst tile 5, ties 02-11, closer"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250206/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250206/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250206/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  },
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SKT_20250211_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -119.2,
+    33.5,
+    -118.58,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -119.2,
+       33.5
+      ],
+      [
+       -118.58,
+       33.5
+      ],
+      [
+       -118.58,
+       34.6
+      ],
+      [
+       -119.2,
+       34.6
+      ],
+      [
+       -119.2,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2025-02-11T18:40:12.024000Z",
+    "eo:cloud_cover": 5.0,
+    "grid:code": "MGRS-11SKT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "tie with 02-06 on score, but further from fire"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250211/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250211/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250211/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  },
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SLT_20250211_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -118.62,
+    33.5,
+    -117.9,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -118.62,
+       33.5
+      ],
+      [
+       -117.9,
+       33.5
+      ],
+      [
+       -117.9,
+       34.6
+      ],
+      [
+       -118.62,
+       34.6
+      ],
+      [
+       -118.62,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2025-02-11T18:40:12.024000Z",
+    "eo:cloud_cover": 5.0,
+    "grid:code": "MGRS-11SLT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "tie with 02-06 on score, but further from fire"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250211/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250211/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250211/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  },
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SKT_20250216_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -119.2,
+    33.5,
+    -118.58,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -119.2,
+       33.5
+      ],
+      [
+       -118.58,
+       33.5
+      ],
+      [
+       -118.58,
+       34.6
+      ],
+      [
+       -119.2,
+       34.6
+      ],
+      [
+       -119.2,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2025-02-16T18:40:12.024000Z",
+    "eo:cloud_cover": 35.0,
+    "grid:code": "MGRS-11SKT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "trap: fails cloud filter"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250216/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250216/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SKT/20250216/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  },
+  {
+   "type": "Feature",
+   "stac_version": "1.0.0",
+   "id": "S2X_11SLT_20250216_0_L2A",
+   "collection": "sentinel-2-c1-l2a",
+   "bbox": [
+    -118.62,
+    33.5,
+    -117.9,
+    34.6
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -118.62,
+       33.5
+      ],
+      [
+       -117.9,
+       33.5
+      ],
+      [
+       -117.9,
+       34.6
+      ],
+      [
+       -118.62,
+       34.6
+      ],
+      [
+       -118.62,
+       33.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "datetime": "2025-02-16T18:40:12.024000Z",
+    "eo:cloud_cover": 40.0,
+    "grid:code": "MGRS-11SLT",
+    "proj:code": "EPSG:32611",
+    "platform": "sentinel-2x",
+    "fixture:note": "trap: fails cloud filter"
+   },
+   "assets": {
+    "nir08": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250216/nir08.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "swir22": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250216/swir22.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "scl": {
+     "href": "https://example.invalid/sentinel-2-c1-l2a/11SLT/20250216/scl.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+   },
+   "links": []
+  }
+ ]
+}
