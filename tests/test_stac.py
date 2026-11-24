@@ -204,5 +204,5 @@ def test_real_response_obeys_gates(aoi):
     for side in (pre, post):
         assert unary_union([footprint(it) for it in side]).covers(region)
     # TODO(you): once you've inspected the real items, pin the ids you expect:
-    # assert ids(pre) == [...]
-    # assert ids(post) == [...]
+    assert ids(pre) == ["S2B_T11SLT_20241218T183708_L2A"]
+    assert ids(post) == ["S2C_T11SLT_20250221T183723_L2A"]

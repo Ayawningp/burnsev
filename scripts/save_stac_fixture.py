@@ -22,7 +22,7 @@ from burnsev.stac import search_items
 
 AOI_BOUNDS = (-118.68, 34.03, -118.50, 34.13)  # lon/lat, approximate
 PRE_WINDOW = (date(2024, 12, 1), date(2025, 1, 6))    # ends the day before ignition (2025-01-07)
-POST_WINDOW = (date(2025, 2, 1), date(2025, 3, 15))   # starts the day after containment (2025-01-31)
+POST_WINDOW = (date(2025, 2, 1), date(2025, 2, 28))   # ends 2025-02-28: initial assessment; later scenes pick up spring green-up
 MAX_CLOUD = 20.0
 
 OUT = Path(__file__).resolve().parents[1] / "tests" / "fixtures" / "stac" / "palisades_search.json"
