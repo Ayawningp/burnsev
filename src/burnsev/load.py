@@ -30,6 +30,10 @@ import xarray as xr
 
 from burnsev.crs import assert_crs  # noqa: F401  (you will need it)
 
+import dask.array as da
+import pyproj
+import odc.geo.geom
+
 TARGET_CRS = "EPSG:32611"  # UTM 11N: the Palisades fire sits well inside it
 BANDS = ("nir08", "swir22", "scl")  # B8A, B12, scene classification (all 20 m)
 RESOLUTION = 20  # metres; the B8A baseline. 10 m is the B08 variant.
@@ -49,9 +53,9 @@ CHUNKS = {"x": 1024, "y": 1024}
 # Valid names: "nearest", "bilinear", "cubic", "average", "mode", ...
 # (odc-stac passes them to rasterio's Resampling enum).
 RESAMPLING: dict[str, str] = {
-    # "nir08": ...,
-    # "swir22": ...,
-    # "scl": ...,
+    "nir08": "bilinear", #Countinuous surface measurement: sensitive to healthy plant cells
+    "swir22": "bilinear", #Countinuous surface measurement: sensitive to moisture, soil, and burned surfaces
+    "scl": "nearest", #Scene classification layer is an int so we want to keep the int
 }
 
 
@@ -93,7 +97,12 @@ def assert_lazy(ds: xr.Dataset) -> None:
     one's is a ``numpy.ndarray``. Look at the variable's ``.data`` attribute,
     never at ``.values`` (that would compute it).
     """
-    raise NotImplementedError
+    for name, var in ds.data_vars.items():
+        if not isinstance(var.data, da.Array):
+            raise AssertionError(
+                f"Variable '{name}' is not backed by a Dask array (found"
+                f" {type(var.data).__name__})."
+            )
 
 
 # --------------------------------------------------------------------------
@@ -152,4 +161,37 @@ def load_bands(
       test fixture: same overpass, timestamps 20 s apart. With the default
       grouping, what would ``ds.sizes["time"]`` be?
     """
-    raise NotImplementedError
+
+    #Make sure items aren't empty
+    if not items:
+        raise ValueError("No STAC items to load: items is empty.")
+
+    #Validate CRS
+    assert_crs(aoi, "EPSG:4326")
+
+    #Output CRS must be projected (metres)
+    if not pyproj.CRS.from_user_input(crs).is_projected:
+        raise ValueError(f"Output crs must be a projected CRS, got {crs!r}.")
+
+    #Every requested band needs a specific respampling method
+    resampling_map = RESAMPLING if resampling is None else resampling
+    for band in bands:
+        if band not in resampling_map:
+            raise ValueError(f"Missing resampling method for band '{band}'.")
+
+    #Wrap AOI geometry with its CRS and load lazily via odc-stac
+    geopolygon = odc.geo.geom.Geometry(aoi.union_all(), crs=aoi.crs) #odc-stac doesn't know degres or metres
+    ds = odc.stac.load(
+      as_pystac_items(items),
+      bands=list(bands),
+      crs=crs,
+      resolution=resolution,
+      chunks=dict(chunks),
+      resampling=dict(resampling_map),
+      groupby="solar_day", #groupby="time" groups by exact timestamp
+      geopolygon=geopolygon,
+    )
+
+    #Check that dataset is still lazy dask array (assert_lazy)
+    assert_lazy(ds)
+    return ds

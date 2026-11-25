@@ -165,7 +165,7 @@ def test_10m_grid_keeps_scl_categorical(synthetic_scene):
 # ---------------------------------------------------------------- input checks
 
 def test_rejects_empty_items(synthetic_scene):
-    with pytest.raises(ValueError):
+    with pytest.raises(ValueError, match="empty"):
         load_bands([], synthetic_scene["aoi"])
 
 
